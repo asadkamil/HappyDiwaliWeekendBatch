@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="54" started-at="2020-03-29T11:27:17Z" finished-at="2020-03-29T11:27:17Z">
+    <groups>
+      <group name="regression">
+        <method signature="ModuleWiseExecutionDemo.deleteUser()[pri:0, instance:TestNG_Package.ModuleWiseExecutionDemo@6cc4c815]" name="deleteUser" class="TestNG_Package.ModuleWiseExecutionDemo"/>
+        <method signature="ModuleWiseExecutionDemo.editUser()[pri:0, instance:TestNG_Package.ModuleWiseExecutionDemo@6cc4c815]" name="editUser" class="TestNG_Package.ModuleWiseExecutionDemo"/>
+      </group> <!-- regression -->
+      <group name="user">
+        <method signature="ModuleWiseExecutionDemo.deleteUser()[pri:0, instance:TestNG_Package.ModuleWiseExecutionDemo@6cc4c815]" name="deleteUser" class="TestNG_Package.ModuleWiseExecutionDemo"/>
+        <method signature="ModuleWiseExecutionDemo.editUser()[pri:0, instance:TestNG_Package.ModuleWiseExecutionDemo@6cc4c815]" name="editUser" class="TestNG_Package.ModuleWiseExecutionDemo"/>
+      </group> <!-- user -->
+    </groups>
+    <test name="Test1" duration-ms="54" started-at="2020-03-29T11:27:17Z" finished-at="2020-03-29T11:27:17Z">
+      <class name="TestNG_Package.ModuleWiseExecutionDemo">
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:TestNG_Package.ModuleWiseExecutionDemo@6cc4c815]" name="deleteUser" duration-ms="16" started-at="2020-03-29T11:27:17Z" finished-at="2020-03-29T11:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:TestNG_Package.ModuleWiseExecutionDemo@6cc4c815]" name="editUser" duration-ms="4" started-at="2020-03-29T11:27:17Z" finished-at="2020-03-29T11:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+      </class> <!-- TestNG_Package.ModuleWiseExecutionDemo -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
